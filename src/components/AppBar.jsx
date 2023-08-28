@@ -51,7 +51,7 @@ const AppBar = () => {
   return (
     <View style={styles.container}>
       <ScrollView showsHorizontalScrollIndicator={false} horizontal style={styles.scroll}>
-        <AppBarTab to='/'>Repositories</AppBarTab>
+        <AppBarTab to='/'>App Rating</AppBarTab>
         <AppBarTab to='/signin'>
           <Image style={styles.logo} 
           source={{uri:"https://png.pngtree.com/png-vector/20191110/ourlarge/pngtree-avatar-icon-profile-icon-member-login-vector-isolated-png-image_1978396.jpg"}}
